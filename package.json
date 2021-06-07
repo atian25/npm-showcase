@@ -28,10 +28,7 @@
     "type": "github"
   },
   "eslintIgnore": [ "coverage", "dist" ],
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
+  "repository": "https://github.com/atian25/npm-showcase",
   "files": [
     "lib",
     "index.js"
