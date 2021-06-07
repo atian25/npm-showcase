@@ -1,8 +1,10 @@
 {
   "name": "npm-showcase",
   "version": "1.0.0",
+  "private": true,
   "description": "showcase for npm",
   "dependencies": {
+    "koa": "^2.13.1"
   },
   "devDependencies": {
     "autod": "^3",
@@ -15,6 +17,7 @@
     "node": ">=10.0.0"
   },
   "scripts": {
+    "start": "node index.js",
     "autod": "autod",
     "lint": "eslint .",
     "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
@@ -27,7 +30,10 @@
     "version": "12, 14",
     "type": "github"
   },
-  "eslintIgnore": [ "coverage", "dist" ],
+  "eslintIgnore": [
+    "coverage",
+    "dist"
+  ],
   "repository": "https://github.com/atian25/npm-showcase",
   "files": [
     "lib",
