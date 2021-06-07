@@ -1,11 +1,11 @@
 'use strict';
 
+const utils = require('npm-showcase-utils');
 const Koa = require('koa');
 const app = new Koa();
 
 app.use(async ctx => {
-  const name = ctx.query.name || 'anonymous';
-  ctx.body = `hi, ${name}`;
+  ctx.body = utils.sayHi(ctx.query.name);
 });
 
 module.exports = app;

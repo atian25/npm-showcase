@@ -4,7 +4,8 @@
   "private": true,
   "description": "showcase for npm",
   "dependencies": {
-    "koa": "^2.13.1"
+    "koa": "^2.13.1",
+    "npm-showcase-utils": "^1.0.0"
   },
   "devDependencies": {
     "autod": "^3",
