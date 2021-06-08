@@ -1,11 +1,11 @@
 {
-  "name": "npm-showcase",
+  "name": "@npm-showcase/example",
   "version": "1.0.0",
   "private": true,
   "description": "showcase for npm",
   "dependencies": {
-    "koa": "^2.13.1",
-    "npm-showcase-utils": "^1.0.0"
+    "koa": "^2",
+    "@npm-showcase/utils": "^1"
   },
   "devDependencies": {
     "autod": "^3",

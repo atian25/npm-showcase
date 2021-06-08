@@ -1,4 +1,4 @@
-# npm-showcase
+# @npm-showcase/example
 
 showcase for npm
 

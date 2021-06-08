@@ -1,6 +1,6 @@
 'use strict';
 
-const utils = require('npm-showcase-utils');
+const utils = require('@npm-showcase/utils');
 const Koa = require('koa');
 const app = new Koa();
 
